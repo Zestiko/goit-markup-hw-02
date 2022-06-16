@@ -1,0 +1,88 @@
+:root {
+    --main-color: #212121;
+    --secondary-color: #757575;
+}
+.body {
+    background-color: #E5E5E5;
+}
+/* Стили для шапки */
+.page-header {
+
+}
+/* Стили навигации */
+.site-nav .link {
+    color: var(--main-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+
+.auth-nav .link {
+    color: var(--secondary-color);
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: #2196F3;
+}
+
+/* Стили для хиро */
+.hero {
+    background-color: #2F303A;
+    color: #000;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;  
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button {
+    background-color: #2196F3;
+    color: #fff;
+}
+
+/* Стили для наших привилегии */
+.benefits .titel {
+    color: var(--main-color);
+}
+.benefits .article {
+    color: var(--secondary-color);
+}
+
+/* Стили "Чем занимаемся" */
+
+.work .titel {
+    color: var(--main-color);
+}
+
+/*  Стили Наша команда */
+
+.team {
+    background-color: #F5F4FA;
+}
+.team .titel {
+    color: var(--main-color);
+}
+.team .article {
+    color: var(--secondary-color);
+}
+
+/* Стили для футера */
+
+.footer {
+    background-color: #2F303A;
+}
+
+.footer .article {
+    color: #fff;
+}
+.footer .link {
+    color: var(--main-color);
+}
