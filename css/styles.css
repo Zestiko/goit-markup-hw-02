@@ -4,14 +4,36 @@
 }
 .body {
     background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
 }
 /* Стили для шапки */
 .page-header {
 
 }
+
+/* Стиль Логотипа*/
+
+.logo {
+    color: #000;
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+
+}
+.logo-color {
+    color: #2196F3;
+}
 /* Стили навигации */
 .site-nav .link {
-    color: var(--main-color);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -21,6 +43,12 @@
 
 .auth-nav .link {
     color: var(--secondary-color);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.15;
+        letter-spacing: 0.02em;
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
@@ -32,52 +60,108 @@
     background-color: #2F303A;
     color: #000;
     font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 1.36;  
-        text-align: center;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
-        color: #FFFFFF;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;  
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .button {
     background-color: #2196F3;
     color: #fff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 /* Стили для наших привилегии */
 .benefits .titel {
     color: var(--main-color);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.15;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
 }
 .benefits .article {
     color: var(--secondary-color);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;    
+        letter-spacing: 0.03em;
 }
 
 /* Стили "Чем занимаемся" */
 
 .work .titel {
     color: var(--main-color);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
 }
 
 /*  Стили Наша команда */
 
 .team {
     background-color: #F5F4FA;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
 }
 .team .titel {
     color: var(--main-color);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+        letter-spacing: 0.03em;
 }
 .team .article {
     color: var(--secondary-color);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+        letter-spacing: 0.03em;
 }
 
 /* Стили для футера */
 
 .footer {
     background-color: #2F303A;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
 }
 
 .footer .article {
@@ -85,4 +169,47 @@
 }
 .footer .link {
     color: var(--main-color);
+}
+
+/* Портфолио */
+/* Кнопки портфолио */
+
+.portfolio-button {
+    background-color: #fff;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+    
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+/* Список робот */
+
+.portfolio-list .titel {
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.portfolio-list .article {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+        color: #757575;
 }
