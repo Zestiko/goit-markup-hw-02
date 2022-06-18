@@ -196,17 +196,21 @@ body {
     color: #fff;
 }
 .footer .link {
-    color: var(--main-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 }
 
 /* Портфолио */
 /* Кнопки портфолио */
-
+.portfolio-button-list {
+    list-style-type: none;
+}
 .portfolio-button {
     background-color: #fff;
-    font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
@@ -223,10 +227,17 @@ body {
 }
 
 /* Список робот */
+.hide-title {
+    color: #E5E5E5;
+}
+.portfolio-list {
+    list-style-type: none;
+}
+.portfolio-link {
+    text-decoration: none;
+}
 
-.portfolio-list .titel {
-font-family: 'Roboto';
-    font-style: normal;
+.portfolio-list-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -234,8 +245,6 @@ font-family: 'Roboto';
     color: #212121;
 }
 .portfolio-list .article {
-    font-family: 'Roboto';
-        font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.88;
