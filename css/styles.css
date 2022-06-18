@@ -26,12 +26,24 @@ body {
         text-decoration: none;
 
 }
+.footer-logo {
+    color: #fff;
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+
+}
 .logo-color {
     color: #2196F3;
 }
 /* Стили навигации */
 .site-nav {
     list-style-type: none;
+    
 }
 .site-nav .link {
         font-style: normal;
@@ -40,6 +52,7 @@ body {
         line-height: 1.14;
         letter-spacing: 0.02em;
         text-decoration: none;
+        color: #212121;
 }
 
 .site-nav .link:hover,
