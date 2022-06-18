@@ -65,8 +65,10 @@ body {
 }
 
 /* Стили для хиро */
-.hero  {
+.hero {
     background-color: #2F303A;
+}
+.hero-title  {
     color: #000;
     font-family: 'Roboto';
     font-style: normal;
